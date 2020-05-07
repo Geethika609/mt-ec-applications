@@ -1,0 +1,208 @@
+    1  top
+    2  clear
+    3  vi hello.sh
+    4  sh hello.sh 
+    5  ./hello.sh
+    6  mkdir shellscripts
+    7  pwd
+    8  mv hello.sh /home/ec2-user/shellscripts/
+    9  ls
+   10  cd shellscripts/
+   11  ls
+   12  vi hello.sh 
+   13  chmod u+x hello.sh
+   14  ls -l
+   15  ./hello.sh 
+   16  . hello.sh 
+   17  cat /etc/shells
+   18  cd
+   19  pwd
+   20  sudo shutdown
+   21  clear
+   22  top
+   23  ls
+   24  cd shellscripts/
+   25  ls
+   26  clear
+   27  top
+   28  sh -x hello.sh 
+   29  sh +x hello.sh 
+   30  sh -e hello.sh 
+   31  vi hello.sh 
+   32  sh -e hello.sh 
+   33  vi hello.sh 
+   34  sh -x hello.sh 
+   35  clear
+   36  vi hello.sh 
+   37  sh hello.sh 
+   38  sh -x hello.sh
+   39  top
+   40  vi comments.sh
+   41  sh comments.sh
+   42  cat -n comments.sh
+   43  top
+   44  env
+   45  echo $SHELL
+   46  echo $HOME
+   47  tip
+   48  top
+   49  cd shellscripts/
+   50  vi clargs.sh
+   51  cat -n clargs.sh 
+   52  sh clargs.sh 
+   53  sh clargs.sh arg1 arg2 
+   54  vi clargs.sh 
+   55  sh clargs.sh arg1 arg2 
+   56  top
+   57  clear
+   58  sudo shutdown
+   59  top
+   60  cd shellscripts/
+   61  vi arops.sh
+   62  sh arops.sh 
+   63  vi arops.sh
+   64  sh arops.sh 
+   65  vi arops.sh
+   66  sh arops.sh 
+   67  vi arops.sh
+   68  sh arops.sh 
+   69  top
+   70  vi read.sh
+   71  ls
+   72  vi read1.sh
+   73  sh read1.sh
+   74  vi read2.sh
+   75  sh read2.sh
+   76  top
+   77  ls
+   78  sh read3.sh
+   79  vi read3.sh
+   80  sh read3.sh
+   81  vi read4.sh
+   82  sh read4.sh
+   83  vi read5.sh
+   84  sh read5.sh
+   85  vi read5.sh
+   86  sh read5.sh
+   87  vi read5.sh
+   88  sh read5.sh
+   89  top
+   90  ls > lsopt.txt
+   91  cat lsopt.txt 
+   92  date >> lsopt.txt 
+   93  cat lsopt.txt 
+   94  sh clargs.sh arg1 arg2 > clargs.log
+   95  cat clargs.log
+   96  sh clargs.sh arg1 arg2 > clargs.log 2>&1
+   97  cat clargs.log
+   98  sh clargs.sh arg1 arg2 2>error.log 1>output.log
+   99  cat error.log 
+  100  cat output.log 
+  101  clear
+  102  top
+  103  vi ifelse.sh
+  104  sh ifelse.sh 
+  105  vi ifelse.sh
+  106  sh ifelse.sh 
+  107  vi ifelse.sh
+  108  sh ifelse.sh 
+  109  clear
+  110  top
+  111  vi ifelse1.sh
+  112  sh ifelse1.sh 
+  113  ls
+  114  sh ifelse1.sh 
+  115  vi ifelse1.sh
+  116  sh ifelse1.sh 
+  117  ls
+  118  sudo shutdown
+  119  top
+  120  cd shellscripts/
+  121  top
+  122  clear
+  123  vi forloop.sh
+  124  sh forloop.sh 
+  125  vi forloop.sh
+  126  sh forloop.sh 
+  127  clear
+  128  vi forloop.sh
+  129  sh forloop.sh 
+  130  top
+  131  vi whileloop.sh
+  132  sh whileloop.sh
+  133  top
+  134  vi switch.sh
+  135  sh switch.sh 
+  136  vi functions.sh
+  137  sh functions.sh
+  138  clear
+  139  sh functions.sh
+  140  vi functions.sh
+  141  sh functions.sh
+  142  vi functions.sh
+  143  vi utilities.sh
+  144  vi usage.sh
+  145  vi utilities.sh
+  146  vi usage.sh
+  147  sh usage.sh
+  148  clear
+  149  sudo shutdown
+  150  history > 4thMay2020.txt
+  151  history
+  152  top
+  153  sudo shutdown
+  154  top
+  155  sudo su - 
+  156  cd
+  157  mkdir paytmapp/
+  158  pwd
+  159  cd paytmapp
+  160  pwd
+  161  git init
+  162  ls -la
+  163  vi DBUsers.java
+  164  git status
+  165  vi Users.java
+  166  git status
+  167  vi deploy.sh
+  168  git status
+  169  git add DBUsers.java 
+  170  git status
+  171  git config --global  user.name "geethika609"
+  172  git config --global user.email "geethika.ravinutala524@gmail.com"
+  173  git config --global --list
+  174  git commit -m "First Commit"
+  175  git status
+  176  git add .
+  177  git commit -m "Second commit"
+  178  git status
+  179  git remote add pr git@github.com:Acc-git-class/Repo1.git
+  180  git remote -v
+  181  git remote add pr https://github.com/Acc-git-class/Repo1.git
+  182  git remote add pt https://github.com/Acc-git-class/Repo1.git
+  183  git remote -v
+  184  git remote remove pr git@github.com:Acc-git-class/Repo1.git
+  185  git remote remove pr
+  186  git remote -v
+  187  git push pt master
+  188  git fetch
+  189  git push pt master
+  190  git remote remove pt
+  191  git remote -v
+  192  clear
+  193  git remote add pt https://github.com/Acc-git-class/Repo1.git
+  194  git push pt master
+  195  git pull master
+  196  git pull pt
+  197  git push pt master
+  198  git remote remove pt
+  199  git remote add pt https://github.com/Geethika609/mt-ec-applications.git
+  200  git push pt master
+  201  clear
+  202  git log
+  203  git show 56a8f48b40f8c12
+  204  git show --pretty="" --name-only 56a8f48b40f8c12
+  205  git log -1
+  206  git log DBUsers.java 
+  207  history
+  208  history > GitFirstClass.txt
